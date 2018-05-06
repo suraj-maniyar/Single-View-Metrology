@@ -1,0 +1,103 @@
+#VRML V2.0 utf8
+
+Collision {
+    collide FALSE
+    children [
+ Shape {
+	 appearance Appearance {
+		 texture ImageTexture {
+			 url "XY_cropped.jpg"
+		 }
+	 }
+	 geometry IndexedFaceSet {
+		 coord Coordinate {
+			 point [
+				 0.000000 0.000000 10.000000,
+				 14.000000 0.000000 10.000000,
+				 14.000000 26.000000 10.000000,
+				 0.000000 26.000000 10.000000,
+			 ]
+		 }
+		 coordIndex [
+			 0, 1, 2, 3, -1,
+		 ]
+		 texCoord TextureCoordinate {
+			 point [
+				 -0.000000 0.000000,
+				 1.000000 0.000000,
+				 1.000000 1.000000,
+				 -0.000000 1.000000,
+			 ]
+		 }
+		 texCoordIndex [
+			 0, 1, 2, 3, -1,
+		 ]
+		 solid FALSE
+	 }
+}
+ Shape {
+	 appearance Appearance {
+		 texture ImageTexture {
+			 url "ZX_cropped.jpg"
+		 }
+	 }
+	 geometry IndexedFaceSet {
+		 coord Coordinate {
+			 point [
+				 0.000000 0.000000 0.000000,
+				 14.000000 0.000000 0.000000,
+				 14.000000 0.000000 10.000000,
+				 0.000000 0.000000 10.000000,
+			 ]
+		 }
+		 coordIndex [
+			 0, 1, 2, 3, -1,
+		 ]
+		 texCoord TextureCoordinate {
+			 point [
+				 -0.000000 0.000000,
+				 1.000000 0.000000,
+				 1.000000 1.000000,
+				 -0.000000 1.000000,
+			 ]
+		 }
+		 texCoordIndex [
+			 0, 1, 2, 3, -1,
+		 ]
+		 solid FALSE
+	 }
+}
+ Shape {
+	 appearance Appearance {
+		 texture ImageTexture {
+			 url "YZ_cropped.jpg"
+		 }
+	 }
+	 geometry IndexedFaceSet {
+		 coord Coordinate {
+			 point [
+				 0.000000 26.000000 0.000000,
+				 0.000000 0.000000 0.000000,
+				 0.000000 0.000000 10.000000,
+				 0.000000 26.000000 10.000000,
+			 ]
+		 }
+		 coordIndex [
+			 0, 1, 2, 3, -1,
+		 ]
+		 texCoord TextureCoordinate {
+			 point [
+				 -0.000000 0.000000,
+				 1.000000 0.000000,
+				 1.000000 1.000000,
+				 -0.000000 1.000000,
+			 ]
+		 }
+		 texCoordIndex [
+			 0, 1, 2, 3, -1,
+		 ]
+		 solid FALSE
+	 }
+}
+	]
+}
